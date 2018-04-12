@@ -12,6 +12,9 @@
         // board which is being tilted
         public GameObject board;
 
+        // ball which is being rolled
+        public GameObject ball;
+
         // Use this for initialization
         void Start()
         {
@@ -26,6 +29,7 @@
             if (controllers[0].triggerClicked || controllers[1].triggerClicked)
             {
                 board.transform.rotation = new Quaternion(0f, 0f, 0f, 0f);
+                ball.transform.position = new Vector3(0f, -1.01f, 13.22f);
             }
         }
     }
