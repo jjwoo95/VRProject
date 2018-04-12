@@ -22,7 +22,7 @@
         public float movementSpeedChangeRate = 0.01f;
 
         // speed at which player changes sizes
-        public float cooldownTime = 0.1F;
+        public float cooldownTime = 0.001F;
         private float currentTimeDuringCooldown = 0.0F;
 
         // Use this for initialization
