@@ -285,6 +285,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BlowOffRoof.cs" />
     <Compile Include="Assets\Scripts\ResetBoard.cs" />
     <Compile Include="Assets\Scripts\ScalePlayer.cs" />
     <Compile Include="Assets\Scripts\TilltBoard.cs" />
