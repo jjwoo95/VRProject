@@ -22,7 +22,7 @@
         private float previousRotationZ;
 
         // threshold for tilting player's head
-        public float tiltHeadThreshold = 1f;
+        public float tiltHeadThreshold = 0.01f;
 
         // Use this for initialization
         void Start()

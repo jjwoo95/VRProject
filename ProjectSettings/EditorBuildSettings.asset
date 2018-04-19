@@ -4,4 +4,22 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TilitBoardLevel.unity
+    guid: a3a925c36cf9b8640ba00db49c56bc62
+  - enabled: 1
+    path: Assets/Scenes/ChangePlayerSizeLevel.unity
+    guid: 6fdd5f35671c28642afbcbce7ee4d367
+  - enabled: 1
+    path: Assets/Scenes/FlashlightLevel.unity
+    guid: 512b1dc4fdcb46c40bc830197511528b
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: ed66844d8b4c02e419c6d3c9be4493c4
+  - enabled: 1
+    path: Assets/Scenes/TestLevel.unity
+    guid: dfa47263583c09248a0389db66138d97
+  - enabled: 1
+    path: Assets/Scenes/SlidePlayerTestLevel.unity
+    guid: 07ca76d7faf4aec4b80f986c125aa22a
