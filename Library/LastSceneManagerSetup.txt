@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/ChangePlayerSizeLevel.unity
+=======
+- path: Assets/Menu.unity
+>>>>>>> b2841bde273d23cda78612c808349e4a3b6b5504
   isLoaded: 1
   isActive: 1
