@@ -62,6 +62,7 @@
      <Compile Include="Assets\Scripts\BlowOffRoof.cs" />
      <Compile Include="Assets\Scripts\ResetBoard.cs" />
      <Compile Include="Assets\Scripts\ScalePlayer.cs" />
+     <Compile Include="Assets\Scripts\SceneSelect.cs" />
      <Compile Include="Assets\Scripts\TilltBoard.cs" />
      <Compile Include="Assets\Scripts\TiltBoardChangeLevel.cs" />
      <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
@@ -166,6 +167,7 @@
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
      <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
+     <Compile Include="Assets\UnityStore\EasyGrassSubstance\Example Scene\ObjectRotation.cs" />
      <Compile Include="Assets\UnityStore\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
      <Compile Include="Assets\UnityStore\Standard Assets\2D\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\UnityStore\Standard Assets\2D\Scripts\Platformer2DUserControl.cs" />
@@ -516,7 +518,7 @@
      <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseHeadset.cs" />
      <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseSystem.cs" />
      <None Include="Assets\UnityStore\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
-     <None Include="Assets\Packs\BirchPackVol1\Works For Fun.txt" />
+     <None Include="Assets\UnityStore\Packs\BirchPackVol1\Works For Fun.txt" />
      <None Include="Assets\UnityStore\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
      <None Include="Assets\UnityStore\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
@@ -547,6 +549,7 @@
      <None Include="Assets\UnityStore\Standard Assets\Effects\ToonShading\Shaders\ToonLit.shader" />
      <None Include="Assets\UnityStore\Standard Assets\Effects\Projectors\Shaders\ProjectorLight.shader" />
      <None Include="Assets\UnityStore\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\UnityStore\EasyGrassSubstance\Documentation.txt" />
      <None Include="Assets\UnityStore\Standard Assets\Vehicles\Car\CarGuidelines.txt" />
      <None Include="Assets\UnityStore\Standard Assets\Effects\Projectors\Shaders\ProjectorMultiply.shader" />
      <None Include="Assets\UnityStore\Standard Assets\Characters\ThirdPersonCharacter\ThirdPersonCharacterGuidelines.txt" />
