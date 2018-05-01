@@ -516,6 +516,7 @@
      <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseHeadset.cs" />
      <Compile Include="Assets\VRTK\SDK\Ximmerse\SDK_XimmerseSystem.cs" />
      <None Include="Assets\UnityStore\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
+     <None Include="Assets\Packs\BirchPackVol1\Works For Fun.txt" />
      <None Include="Assets\UnityStore\Standard Assets\Effects\ToonShading\Shaders\ToonBasic.shader" />
      <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
      <None Include="Assets\UnityStore\Standard Assets\Prototyping\Shaders\WorldCoordDiffuse.shader" />
