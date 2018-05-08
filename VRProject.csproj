@@ -285,6 +285,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\KeyScript.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
@@ -296,6 +297,7 @@
     <Compile Include="Assets\Scripts\BlowOffRoof.cs" />
     <Compile Include="Assets\Scripts\ResetBoard.cs" />
     <Compile Include="Assets\Scripts\ScalePlayer.cs" />
+    <Compile Include="Assets\Scripts\SceneSelect.cs" />
     <Compile Include="Assets\Scripts\TilltBoard.cs" />
     <Compile Include="Assets\Scripts\TiltBoardChangeLevel.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
@@ -400,6 +402,7 @@
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_TrackedObject.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_UpdatePoses.cs" />
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
+    <Compile Include="Assets\UnityStore\EasyGrassSubstance\Example Scene\ObjectRotation.cs" />
     <Compile Include="Assets\UnityStore\Standard Assets\2D\Scripts\Camera2DFollow.cs" />
     <Compile Include="Assets\UnityStore\Standard Assets\2D\Scripts\CameraFollow.cs" />
     <Compile Include="Assets\UnityStore\Standard Assets\2D\Scripts\Platformer2DUserControl.cs" />
@@ -763,6 +766,9 @@
     <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
     <None Include="Assets\SteamVR\readme.txt" />
+    <None Include="Assets\UnityStore\EasyGrassSubstance\Documentation.txt" />
+    <None Include="Assets\UnityStore\Keys\Key\readME keys.txt" />
+    <None Include="Assets\UnityStore\Packs\BirchPackVol1\Works For Fun.txt" />
     <None Include="Assets\UnityStore\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\UnityStore\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\UnityStore\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />

@@ -327,6 +327,9 @@
     <None Include="Assets\SteamVR\Resources\SteamVR_Fade.shader" />
     <None Include="Assets\SteamVR\Resources\SteamVR_SphericalProjection.shader" />
     <None Include="Assets\SteamVR\readme.txt" />
+    <None Include="Assets\UnityStore\EasyGrassSubstance\Documentation.txt" />
+    <None Include="Assets\UnityStore\Keys\Key\readME keys.txt" />
+    <None Include="Assets\UnityStore\Packs\BirchPackVol1\Works For Fun.txt" />
     <None Include="Assets\UnityStore\Standard Assets\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\UnityStore\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />
     <None Include="Assets\UnityStore\Standard Assets\Characters\RollerBall\RollerBallGuidelines.txt" />
