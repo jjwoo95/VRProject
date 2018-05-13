@@ -13,7 +13,7 @@ public class DestructibleScript : MonoBehaviour
     public bool isWall;
     public int myTrack;
 
-    private bool CR_running = true;
+    private static bool CR_running = true;
 
     public GameObject crumble;
     AudioSource crumbleSound;
@@ -31,7 +31,8 @@ public class DestructibleScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        if(CR_running == false)
+        LoadNewScene(myTrack);
     }
 
     void OnCollisionEnter()
@@ -45,10 +46,26 @@ public class DestructibleScript : MonoBehaviour
 
 
 
-            StartCoroutine(TimeWait(1.4f,1, myTrack));
-           // StartCoroutine(TimeWait(1.4f, 2, myTrack));
+            StartCoroutine(TimeWait(1.4f));
+            // StartCoroutine(TimeWait(1.4f, 2, myTrack));
 
+            if (myTrack == 1)
+            {
 
+                SceneManager.LoadScene("ChangePlayerSizeLevel", LoadSceneMode.Single);
+            }
+
+            else if (myTrack == 2)
+            {
+
+                SceneManager.LoadScene("FlashlightLevel");
+            }
+
+            else if (myTrack == 3)
+            {
+
+                SceneManager.LoadScene("TiltBoardLevel");
+            }
 
 
         }
@@ -59,24 +76,21 @@ public class DestructibleScript : MonoBehaviour
 
     }
 
-    IEnumerator TimeWait(float time, int track, int scene)
+    IEnumerator TimeWait(float time)
     {
         //print(Time.time);
 
-        if (track == 1)
-        {
-            CR_running = false;
-            yield return new WaitForSeconds(2f);
-            LoadNewScene(scene);
+     
 
-        }
+            yield return new WaitForSeconds(2f);
+        CR_running = false;
+    }
        
 
-        if (track == 2)
-            LoadNewScene(scene);
+
         //;
         //print(Time.time);
-    }
+
     void LoadNewScene(int scene)
     {
         if (CR_running == false)

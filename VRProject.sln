@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2017
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRProject", "VRProject.csproj", "{A1E96DFA-E754-ED41-17BA-EF0D78C40EFE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRProject.Editor", "VRProject.Editor.csproj", "{846A1692-003F-9E9C-E8CF-0F49A236399B}"
