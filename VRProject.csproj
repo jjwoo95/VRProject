@@ -295,6 +295,7 @@
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\BlowOffRoof.cs" />
+    <Compile Include="Assets\Scripts\DestructibleScript.cs" />
     <Compile Include="Assets\Scripts\PickUpObject.cs" />
     <Compile Include="Assets\Scripts\ResetBoard.cs" />
     <Compile Include="Assets\Scripts\ScalePlayer.cs" />
