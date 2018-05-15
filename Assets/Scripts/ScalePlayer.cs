@@ -13,7 +13,7 @@
         private VRTK_ControllerEvents[] controllers;
 
         // change the size of the player
-        public float maxSize = 2.0f;
+        public float maxSize = 5.0f;
         public float smallestSize = 0.1f;
         public float changeSizeRate = 0.01f;
 

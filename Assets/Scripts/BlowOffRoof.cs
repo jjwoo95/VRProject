@@ -16,7 +16,7 @@ public class BlowOffRoof : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(cameraRig.transform.localScale.x > 1.9f && alreadyBlownOff == false)
+		if(cameraRig.transform.localScale.x > 4.9f && alreadyBlownOff == false)
         {
             rb.useGravity = true;
             rb.isKinematic = false;

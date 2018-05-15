@@ -307,6 +307,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Handcrafted Mobile\CurvedVRKeyboard\Resources\Scripts\Editor\KeyboardCreatorEditor.cs" />
+    <Compile Include="Assets\Handcrafted Mobile\CurvedVRKeyboard\Resources\Scripts\Editor\KeyboardStatusEditor.cs" />
     <Compile Include="Assets\House\Customizable_Furnture\Editor\Customizable_Furniture\EditorCleanUpAll.cs" />
     <Compile Include="Assets\House\Customizable_Furnture\Editor\Customizable_Furniture\EditorOptionsDisplay.cs" />
     <Compile Include="Assets\House\Customizable_Furnture\Editor\Customizable_Furniture\EditorSimpleSwitchMaterial.cs" />
@@ -334,6 +336,8 @@
     <Compile Include="Assets\VRTK\Editor\VRTK_UpdatePrompt.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Handcrafted Mobile\CurvedVRKeyboard\Documentation\CHANGE_LOG.txt" />
+    <None Include="Assets\Handcrafted Mobile\CurvedVRKeyboard\Documentation\README.txt" />
     <None Include="Assets\House\Customizable_Furnture\Readme\Readme.txt" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
